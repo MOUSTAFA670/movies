@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+}
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .7);
+    border-radius: 0;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-align: center;
+}
+
+.form-control:focus {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.content {
+    position: relative;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 478px;
+    background-color: rgba(228, 226, 226, 0.459);
+    transition: all 1s;
+    color: black;
+    font-weight: 400;
+}
+
+.content:hover .layer {
+    top: 0;
+}
+
+.rec {
+    width: 283px;
+    background-color: brown;
+    position: fixed;
+    left: -230.25px;
+    height: 100vh;
+    z-index: 22222;
+    top: 0;
+    bottom: 0;
+}
+
+ul li {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    list-style-type: none;
+    padding: 15px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.alert {
+    display: none;
+}
+
+.message {
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    box-shadow: thistle;
+    width: 600px;
+    margin: auto;
+    opacity: 0;
+}
+
+.link {
+    opacity: 1;
+    padding-top: 500px;
+}

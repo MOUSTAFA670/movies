@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./all.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./movie.css">
+
+
+</head>
+
+<body>
+    <div id="rec" class="rec">
+        <div class="row">
+
+            <div id="rect" class="  col-9 bg-black vh-100">
+                <ul>
+                    <li id="now_playing" class="link item1"> Now playing </li>
+                    <li id="popular" class="link item2"> Popular </li>
+                    <li id="top_rated" class="link item3"> Top Rated </li>
+                    <li id="latest" class="link item4"> Trending </li>
+                    <li id="upcoming" class="link item5"> Upcoming
+
+                    </li>
+                    <li class=" item6"><a href="">Contact Us</a> </li>
+
+
+
+
+
+
+                </ul>
+
+                <p class=" text-white my-5 py-5 ps-3">
+
+                    Copyright Â© 2019 All Rights Reserved.</p>
+
+
+
+            </div>
+            <div class="col-3 d-flex flex-wrap right text-center   vh-100 bg-white">
+                <div class=" mt-4 ms-2"><img class="w-75" src="./logo.png" alt=""></div>
+                <div id="open-close"><i id="close" class="ps-2 fa-grip-lines fa-solid fa-3x"></i></div>
+
+            </div>
+        </div>
+    </div>
+    <section class="header ">
+        <div class="container w-75 my-5 ">
+
+            <div class=" row d-flex   ">
+                <div class=" col-sm-12 col-md-6">
+                    <input placeholder="get movies by name" class="w-100 form-control" type="text">
+                </div>
+                <div class="   col-sm-12 col-md-6"> <input id="search" placeholder="search..." class="w-100 form-control" type="text"></div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+    </section>
+    <section class="main">
+        <div class="container w-75">
+
+
+            <div id="row" class="row g-5 text-center">
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <section id="contact" class="container myM w-75 mx-auto my-5 ">
+        <h2 class="text-light my-5">ContacUs...</h2>
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input class="form-control" id="name" placeholder="Enter Your Name">
+                    <div class="alert alert-danger" id="namealert" role="alert">
+                        Your Name is not valid
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input class="form-control" id="email" placeholder="Enter Email">
+                    <div class="alert alert-danger" id="emailalert" role="alert">
+                        entre valid email
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input class="form-control" id="phone" placeholder="Enter phone">
+                    <div class="alert alert-danger" id="phonealert" role="alert">
+                        entre valid phone
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input class="form-control" id="age" placeholder="Enter Age">
+                    <div class="alert alert-danger" id="agealert" role="alert" style="display: none;">
+                        entre valid Age
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input class="form-control" type="password" id="password" placeholder="Enter Password">
+                    <div class="alert alert-danger" id="passwordalert" role="alert">
+                        entre valid password *Minimum eight characters, at least one letter and one number:*
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input class="form-control" type="password" id="rePassword" placeholder="Enter RePassword">
+                    <div class="alert alert-danger" id="repasswordalert" role="alert">
+                        entre valid Repassword
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <button type="submit" id="submitBtn" class="btn btn-outline-danger">Submit</button>
+        <div id="message" class="message">
+            <h2>
+
+                welcome our friend
+
+            </h2>
+        </div>
+    </section>
+    <script src="./jquery-3.6.0.js"></script>
+    <script src="./movie.js"></script>
+
+</body>
+
+</html>
